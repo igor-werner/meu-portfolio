@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página Responsiva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Currículo Igor Verne Siqueira Souza</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao1">Informações Pessoais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao2">Objetivos</a>
+                </li>
+                <li class="nav-item"></li>
+                <a class="nav-link text-white" href="#secao3">Formação Acadêmica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao4">Experiência</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao5">Habilidades</a>
+                </li>
+                <li class="nav-item"></li>
+                <a class="nav-link text-white" href="#secao6">Certificações</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a class="nav-link text-white" href="#secao7">Idiomas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="container mt-5">
+        <section id="secao1" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Informações Pessoais</h2>
+                <p>Igor Verne Siqueira Souza<br>
+                    Rua ---, Cajueiro da Praia - Piauí<br>
+                    Telefone: (86) ---------<br>
+                    E-mail: igor.1on@hotmail.com</p>
+            </div>
+        </section>
+
+        <section id="secao2" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Objetivo Profissional</h2>
+                <p>Marinheiro de Convés com mais de 10 anos de experiência.<br>
+                    Buscando aprimorar habilidades na área marítima já estando apto a exercer o cargo de Contra-Mestre.<br>
+                    e tambem está em formação superior na area da tecnologia, em Engenharia da Computação.<br>
+                    Com o objetivo de crescer profissionalmente e contribuir para o sucesso da empresa.</p>
+            </div>
+        </section>
+
+        <section id="secao3" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Formação Acadêmica</h2>
+                <p>Engenharia da Computação (Superior incompleto)<br>
+                    Instituição: Centro Universitário União das Américas<br>
+                    Conclusão prevista: 2028</p>
+            </div>
+        </section>
+
+        <section id="secao4" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Experiência Profissional</h2>
+                <p>Norskan Offshore:<br>
+                    Marinheiro de Convés<br>
+                    Período: Junho/2014 - Atualmente<br>
+                    - 10 anos de experiência em Navios PLSV e RSV (Platform Lay Support Vessels e Remotely
+                    Operated Subsea Vessels).<br>
+                    - Responsável por garantir a segurança e o bom funcionamento das operações no convés;<br>
+                    - Manutenção e operação de equipamentos especializados;<br>
+                    - Atuação em movimentação de cargas e resgate em alturas e espaços confinados.<br>
+                    </p>
+            </div>
+        </section>
+
+        <section id="secao5" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Habilidades</h2>
+                <p> Operação e manutenção de navios PLSV e RSV.<br>
+                    - Certificações e cursos em dia para atuação em operações offshore.<br>
+                    - Capacidade de realizar trabalho em altura e resgates.<br>
+                    - Movimentação de cargas com segurança.<br>
+                    - Inglês intermediário (comunicação clara).<br>
+            </div>
+        </section>
+
+        <section id="secao6" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Certificações e Cursos</h2>
+                <p> - T-Huet<br>
+                    - CESS (Curso Especial de Segurança de Sobrevivência)<br>
+                    - CERR (Curso Especial de Regulação e Resgate)<br>
+                    - ALPH (Curso de Embarcações de Superfície)<br>
+                    - Espaço Confinado<br>
+                    - Trabalho em Altura<br>
+                    - Resgate em Altura e Espaços Confinados<br>
+                    - Movimentação de Cargas.</p></p>
+            </div>
+        </section>
+
+        <section id="secao7" class="mb-5">
+            <div class="bg-ligth p-4 rouded">
+                <h2>Idiomas</h2>
+                <p>- Português: Nativo<br>
+                    - Inglês: Intermediário.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="anoAtual"></span> Igor Souza. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.getElementById('anoAtual').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
